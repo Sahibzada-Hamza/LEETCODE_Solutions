@@ -4,7 +4,6 @@ public:
         if(n>=1 && n<=999){
             return 0;
         }
-        int count=0;
         if(n>999 && n<=100000){
             return n-999;
         }
