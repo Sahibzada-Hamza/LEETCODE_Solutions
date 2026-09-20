@@ -12,8 +12,7 @@ public:
     int reverseDegree(string s) {
         int sum=0;
         for(int i=0;i<s.size();i++){
-            int curr=num(s[i]);//0-26
-            // return curr;
+            int curr=num(s[i]);
             sum+=(curr*(i+1));    
         }
         return sum;
