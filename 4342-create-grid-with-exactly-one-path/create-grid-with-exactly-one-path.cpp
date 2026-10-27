@@ -4,7 +4,7 @@ public:
         vector<vector<char>> grid(m, vector<char>(n, '#'));
         grid[0][0] = '.';
         int i=0,j=0;
-        if (n != 1) {
+        // if (n != 1) {
             i = 0, j = 1;
             int alt = 0;
             while (i < m && j < n) {
@@ -16,8 +16,8 @@ public:
                 alt++;
                 // right
             }
-        }
-        else i=0,j=0;
+        // }
+        // else i=0,j=0;
         if(j==n)j=n-1;
         if(i==m)i=m-1;
         while(i<m){
